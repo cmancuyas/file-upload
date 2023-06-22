@@ -1,0 +1,6 @@
+<h1>File Upload</h1>
+<input type="file" style="display: none" #fileInput (change)="onFileSelected($event)" />
+<br />
+<button type="button" (click)="fileInput.click()">Pick File</button>
+<br />
+<button type="button" (click)="onUpload()">Upload</button>
